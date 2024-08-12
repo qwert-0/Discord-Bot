@@ -1,0 +1,12 @@
+.env
+__pycache__
+.vscode
+snippets.py
+waow_ifon.py
+tts.py
+bdaylog.json
+vctime.json
+streamtime.json
+data.json
+faltu testing.py
+facebook_feature.py

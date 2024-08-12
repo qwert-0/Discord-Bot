@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "kitten-bot"
+version = "0.1.0"
+description = ""
+authors = ["Shashwat <10794178+TheTrio@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+"discord.py" = {extras = ["voice"], version = "^1.7.3"}
+discord-components = "^2.1.2"
+discord-custom-help = "^0.0.6"
+discord-py-slash-command = "^3.0.1"
+praw = "^7.4.0"
+youtube_dl = "^2021.6.6"
+gTTS = "^2.2.3"
+python-dotenv = "^0.19.1"
+discord = "^1.7.3"
+discord-buttons-plugin = "^0.1.2"
+googletrans = "^3.0.0"
+PyNaCl = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
